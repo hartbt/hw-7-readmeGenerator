@@ -1,7 +1,11 @@
 var fs = require("fs")
 var inquirer = require("inquirer")
+var generateMarkdown = require("./utils/generateMarkdown.js")
+var path = require("path")
+const { generate } = require("rxjs")
 
 var questions = [
+
     {
         type: "input",
         message: "Enter a brief description",
@@ -18,7 +22,7 @@ var questions = [
         type: "list",
         message: "Enter licensing information",
         name: "license",
-        choices: ["MIT", "APACHE 2.0", "BSD 3", "GPL 3.0", "none"]
+        choices: ["MIT", "APACHE2.0", "BSD3", "GPL3.0", "none"]
     },{
         type: "input",
         message: "Enter contribution information",
@@ -30,16 +34,21 @@ var questions = [
     }
 ]
 
-function askQuestions(){
-    prompt(questions).then()
-}
 
-function writeInFile(){
-    fs.writeFile
+
+function writeInFile(fileName, data){
+   fs.writeFile(fileName, data, function(err){
+       if(err){
+           console.log(err)
+       }
+       console.log("Success!")
+   })
 }
 
 function initialize(){
-   askQuestions() 
+   inquirer.prompt(questions).then(data => {
+       writeInFile("sample.md", generateMarkdown(data)) 
+   })
 }
 
 initialize();
