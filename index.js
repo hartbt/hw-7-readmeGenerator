@@ -5,8 +5,11 @@ var path = require("path")
 const { generate } = require("rxjs")
 
 var questions = [
-
-    {
+    {   
+        type: "input",
+        message: "What is the title of your project?",
+        name: "title"
+    },{
         type: "input",
         message: "Enter a brief description",
         name: "description"
@@ -31,6 +34,14 @@ var questions = [
         type: "input",
         message: "Enter testing information",
         name: "test"
+    },{
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "github"
+    },{
+        type: "input",
+        message: "What is your email?",
+        name: "email"
     }
 ]
 
