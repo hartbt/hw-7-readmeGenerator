@@ -11,12 +11,12 @@ function licenseGenerateSection(license){
     This project is licensed under the ${license} license.`)
   }
 }
-function licenseGenerateLink (license){
-  if (license !== "none"){
-    return (  `\n*[License](#license)
-    `)
-  } return "";
-}
+// function licenseGenerateLink (license){
+//   if (license !== "none"){
+//     return (  `\n*[License](#license)
+//     `)
+//   } return "";
+// }
 
 
 

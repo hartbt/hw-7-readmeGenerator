@@ -33,7 +33,8 @@ var questions = [
     },{
         type: "input",
         message: "Enter testing information",
-        name: "test"
+        name: "test",
+        default: "npm install"
     },{
         type: "input",
         message: "What is your GitHub username?",
