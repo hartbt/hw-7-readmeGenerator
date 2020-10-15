@@ -1,4 +1,4 @@
-# titel it
+# title it
 
   ![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)
 
@@ -10,9 +10,7 @@
 
   * [Installation](#installation)
   * [Usage](#usage)
-    
-*[License](#license)
-    ]
+  * [License](#license)
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Questions](#questions)
