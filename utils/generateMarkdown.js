@@ -11,7 +11,7 @@ function licenseGenerateSection(license){
     This project is licensed under the ${license} license.`)
   }
 }
-function icenseGenerateLink (license){
+function licenseGenerateLink (license){
   if (license !== "none"){
     return (  `\n*[License](#license)
     `)
@@ -35,7 +35,7 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+    ${licenseGenerateLink(data.license)}
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -45,26 +45,34 @@ function generateMarkdown(data) {
   To install needed dependencies, run the following command:
   ${data.installation}
 
+
   # **Usage**
 
   ${data.usage}
+
+  ${licenseGenerateSection(data.license)}
+
 
   # **License**
 
   This project is licensed by: ${data.license}
 
+
   # **Contribution**
 
   ${data.contribution}
+
 
   # **Tests**
 
   To run tests, run the following command:
   ${data.tests}
   
+
   # **Questions**
 
   GitHub: ${data.github}
+  \n
   Email : ${data.email}
 
 `;

@@ -1,46 +1,57 @@
-# Title it
+# titel it
 
   ![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)
 
   # **Description**
 
-  Describe it
+  describe it
 
   # **Table of Contents**
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+    
+*[License](#license)
+    ]
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Contact Me](#github, #email)
 
   # **Installation**
 
-  Install it
+  To install needed dependencies, run the following command:
+  install it
+
 
   # **Usage**
 
-  Use it
+  use it
+
+  ## License
+    
+    This project is licensed under the MIT license.
+
 
   # **License**
 
-  APACHE2.0
+  This project is licensed by: MIT
+
 
   # **Contribution**
 
-  Contribute to it
+  contribute to it
+
 
   # **Tests**
 
+  To run tests, run the following command:
   undefined
   
+
   # **Questions**
 
-  no
+  GitHub: hartbt
+  
 
-  # **Contact Me**
+  Email : brendonhartbusiness@gmail.com
 
-  hartbt
-  brendon@gmail.com
