@@ -42,6 +42,10 @@ var questions = [
         type: "input",
         message: "What is your email?",
         name: "email"
+    },{
+        type: "input",
+        message: "Any questions?"
+        name: "questions"
     }
 ]
 

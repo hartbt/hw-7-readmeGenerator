@@ -20,8 +20,13 @@ function generateMarkdown(data) {
 
   # **Table of Contents**
 
-
-  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [Contact Me](#github, #email)
 
   # **Installation**
 
@@ -35,7 +40,7 @@ function generateMarkdown(data) {
 
   ${data.license}
 
-  # **Contributing**
+  # **Contribution**
 
   ${data.contribution}
 
@@ -45,7 +50,7 @@ function generateMarkdown(data) {
   
   # **Questions**
 
-
+  ${data.questions}
 
   # **Contact Me**
 
