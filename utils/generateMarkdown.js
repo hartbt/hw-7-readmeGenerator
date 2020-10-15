@@ -4,6 +4,19 @@ function licenseGenerateBadge(license){
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   } return "";
 }
+function licenseGenerateSection(license){
+  if (license !== "none"){
+    return (`## License
+    
+    This project is licensed under the ${license} license.`)
+  }
+}
+function icenseGenerateLink (license){
+  if (license !== "none"){
+    return (  `\n*[License](#license)
+    `)
+  } return "";
+}
 
 
 
@@ -26,10 +39,10 @@ function generateMarkdown(data) {
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Contact Me](#github, #email)
 
   # **Installation**
 
+  To install needed dependencies, run the following command:
   ${data.installation}
 
   # **Usage**
@@ -38,7 +51,7 @@ function generateMarkdown(data) {
 
   # **License**
 
-  ${data.license}
+  This project is licensed by: ${data.license}
 
   # **Contribution**
 
@@ -46,16 +59,14 @@ function generateMarkdown(data) {
 
   # **Tests**
 
+  To run tests, run the following command:
   ${data.tests}
   
   # **Questions**
 
-  ${data.questions}
-
-  # **Contact Me**
-
   GitHub: ${data.github}
   Email : ${data.email}
+
 `;
 }
 
