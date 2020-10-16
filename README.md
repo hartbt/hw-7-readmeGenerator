@@ -4,7 +4,7 @@ This assignment serves as a README.md generator using node.js. After the user ru
 
 <iframe src="https://drive.google.com/file/d/17ExkAbmjgQ-X6tppdJkm0MBnrFJ0YoKw/preview" width="640" height="480"></iframe>
 
-<strong>Link to site:</strong> https://hartbt.github.io/homework-5-dayPlanner/
+<strong>Link to site:</strong> https://hartbt.github.io/hw-7-readmeGenerator//
 
 # **Installation**
 
