@@ -1,10 +1,10 @@
-# title it
+# This is where I would title it
 
-  ![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)
 
   # **Description**
 
-  describe it
+  This is where I would describe it
 
   # **Table of Contents**
 
@@ -18,26 +18,26 @@
   # **Installation**
 
   To install needed dependencies, run the following command:
-  install it
+  This is where I would install it
 
 
   # **Usage**
 
-  use it
+  This is where I would describe how it's used
 
   ## License
     
-    This project is licensed under the APACHE2.0 license.
+    This project is licensed under the BSD3 license.
 
 
   # **License**
 
-  This project is licensed by: APACHE2.0
+  This project is licensed by: BSD3
 
 
   # **Contribution**
 
-  contribute to it
+  This is where I would list contributors 
 
 
   # **Tests**
@@ -51,5 +51,5 @@
   GitHub: hartbt
   
 
-  Email : bob
+  Email : brendonhartbusiness@Gmail.com
 
