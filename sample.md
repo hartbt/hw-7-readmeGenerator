@@ -27,12 +27,12 @@
 
   ## License
     
-    This project is licensed under the MIT license.
+    This project is licensed under the APACHE2.0 license.
 
 
   # **License**
 
-  This project is licensed by: MIT
+  This project is licensed by: APACHE2.0
 
 
   # **Contribution**
@@ -51,5 +51,5 @@
   GitHub: hartbt
   
 
-  Email : brendonhartbusiness@gmail.com
+  Email : bob
 
