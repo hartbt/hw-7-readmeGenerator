@@ -1,10 +1,10 @@
-# This is where I would title it
+# This is where I would title my project
 
   ![GitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)
 
   # **Description**
 
-  This is where I would describe it
+  This is where I would describe my project
 
   # **Table of Contents**
 
@@ -18,12 +18,12 @@
   # **Installation**
 
   To install needed dependencies, run the following command:
-  This is where I would install it
+  This is where I would explain installation steps for my project
 
 
   # **Usage**
 
-  This is where I would describe how it's used
+  This is where I would explain how to go about using my project
 
   ## License
     
@@ -37,7 +37,7 @@
 
   # **Contribution**
 
-  This is where I would list contributors 
+  This is where I would insert a list of contributors
 
 
   # **Tests**
@@ -48,8 +48,8 @@
 
   # **Questions**
 
-  GitHub: hartbt
+  GitHub: https://github.com/hartbt
   
 
-  Email : brendonhartbusiness@Gmail.com
+  Email : brendonhartbusiness@gmail.com
 
